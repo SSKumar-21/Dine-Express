@@ -36,7 +36,38 @@ function setSlide(index) {
 }
 
 // Auto slide every 3 seconds
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 7000);
 
 // Show the first slide by default
 showSlide(slideIndex);
+
+window.addEventListener('load', function() {
+    const captions = document.querySelectorAll('.main-caption');
+
+    function typeEffect(element, text, speed) {
+        let index = 0;
+        element.textContent = ''; // Clear the element's text content
+
+        function type() {
+            if (index < text.length) {
+                element.textContent += text.charAt(index);
+                index++;
+                setTimeout(type, 70);
+            }
+        }
+
+        type();
+    }
+
+    captions.forEach(caption => {
+        const h2Text = caption.querySelector('h2').textContent;
+        const pText = caption.querySelector('p').textContent;
+        caption.querySelector('h2').textContent = '';
+        caption.querySelector('p').textContent = '';
+        
+        // Typing effect for h2 and p elements
+        typeEffect(caption.querySelector('h2'), h2Text, 100);
+        typeEffect(caption.querySelector('p'), pText, 50);
+    });
+});
+
