@@ -1,5 +1,0 @@
-11 Sept 2024:
-Today's progress involved completing the introduction section of the homepage for the food delivery website, Dine Express, after a group discussion. All files have been uploaded to the shared Google Drive folder and GitHub account. This marks a good step forward in the project.
-
-Work distribution:
-Sidharth and Mayank are handling the backend, Shreya and Abhay are working on the structure and design code, while Deeksha is responsible for the design and media files. Together, they completed the introduction section of the homepage for Dine Express and uploaded all files to the shared Google Drive and GitHub.
