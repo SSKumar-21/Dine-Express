@@ -6,3 +6,6 @@ Sidharth and Mayank are handling the backend, Shreya and Abhay are working on th
 
 12th September 2024:
 Sidharth and his team completed the introduction part of the Dine Express webpage, with the animation and glowing text in place. The navbar is still pending. Deeksha has started designing the second and third parts of the webpage, and they are waiting for the navbar code.
+
+13th September 2024:
+The Dine Express project is moving along well. We’ve successfully completed the intro part of the homepage and integrated the navbar design. The task distribution is set based on each team member's strengths: Deeksha is working on the 2nd and 3rd sections of the homepage, Shreya and Abhay are handling the login page design, while Mayank is focusing on the contact page. The progress is steady, and everything is on track.
