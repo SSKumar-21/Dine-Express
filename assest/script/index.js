@@ -70,4 +70,3 @@ window.addEventListener('load', function() {
         typeEffect(caption.querySelector('p'), pText, 50);
     });
 });
-
