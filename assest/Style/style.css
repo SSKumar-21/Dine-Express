@@ -4,6 +4,7 @@ body{
 }
 
 .main {
+  margin-top: 120px; /* Add margin to prevent the main content from being hidden under the navbar */
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -90,4 +91,101 @@ body{
 
 .dot.active {
   background-color: #717171;
+}
+
+
+
+
+
+.navbar {
+  position: fixed; /* Fix the navbar to the top */
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust the left position to center the navbar */
+  width: 100%; /* Adjust width as needed */
+  z-index: 100; /* Ensure it's above the other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  border-bottom-left-radius: 80px; 
+  border-bottom-right-radius: 80px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for effect */
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 white;
+    width: auto;
+    height: auto;
+    padding:10px ;
+    color: black;
+}
+
+.search-icon::before {
+  content: "";
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3UHUcUiQivnCviYYqaep91FsJa4Byzd7nvA&s");
+  background-size: cover;
+  height: 22px;
+  width: 22px;
+}
+
+.login, .signup {
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login:hover, .signup:hover {
+  background: white;
+  color: black;
+  font-size: 20px; 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+.login, .signup {
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.signup {
+  border-left: 2px solid white;
+  padding-left: 20px;
 }
