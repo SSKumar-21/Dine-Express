@@ -108,6 +108,7 @@ body{
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  border: 1px white solid;
   padding: 20px;
   border-bottom-left-radius: 80px; 
   border-bottom-right-radius: 80px;
