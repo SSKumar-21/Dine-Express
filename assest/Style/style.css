@@ -1,13 +1,35 @@
-body{
-  margin: 0px;
-  padding: 0px;
+body {
+  margin: 0;
+  padding: 0;
+  background: #717171;
+}
+
+.navbar {
+  border: 1px white solid;
+  position: fixed; /* Fix the navbar to the top */
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust the left position to center the navbar */
+  width: 100%; /* Full width */
+  z-index: 100; /* Ensure it's above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  border-bottom-left-radius: 80px; 
+  border-bottom-right-radius: 80px;
+  margin: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
 }
 
 .main {
-  margin-top: 120px; /* Add margin to prevent the main content from being hidden under the navbar */
   position: relative;
+  top: 0; /* Start directly below the navbar */
   width: 100%;
+  height: 100vh;
   overflow: hidden;
+  z-index: 1; /* Keep it below the navbar */
 }
 
 .main-images {
@@ -42,14 +64,14 @@ body{
                 0 0 30px #ffca28, 
                 0 0 40px #ffd54f,   
                 0 0 55px #ffeb3b,  
-                0 0 70px #ff0000;   
+                0 0 70px #ff0000;
 }
 
-.main-caption>h2{
+.main-caption>h2 {
   font-size: 3.5rem;
 }
 
-.main-caption>p{
+.main-caption>p {
   font-size: 2.5rem;
 }
 
@@ -93,28 +115,6 @@ body{
   background-color: #717171;
 }
 
-
-
-
-
-.navbar {
-  position: fixed; /* Fix the navbar to the top */
-  top: 0;
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust the left position to center the navbar */
-  width: 100%; /* Adjust width as needed */
-  z-index: 100; /* Ensure it's above the other content */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  border: 1px white solid;
-  padding: 20px;
-  border-bottom-left-radius: 80px; 
-  border-bottom-right-radius: 80px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for effect */
-}
-
 .nav-list {
   display: flex;
   list-style: none;
@@ -146,14 +146,11 @@ body{
 
 a:hover {
   border: none;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 0 20px 0 white;
-    width: auto;
-    height: auto;
-    padding:10px ;
-    color: black;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 white;
+  color: black;
 }
 
 .search-icon::before {
@@ -176,14 +173,8 @@ a:hover {
 .login:hover, .signup:hover {
   background: white;
   color: black;
-  font-size: 20px; 
+  font-size: 20px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-}
-.login, .signup {
-  text-transform: uppercase;
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 10px 20px;
 }
 
 .signup {
