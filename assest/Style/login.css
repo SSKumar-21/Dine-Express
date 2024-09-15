@@ -29,7 +29,7 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 40px;
-    width: 350px;
+    width: 400px;
     text-align: center;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
     animation: slideInUp 1s ease;
@@ -116,6 +116,21 @@ body {
 
 .signup-text a:hover {
     text-decoration: underline;
+}
+
+/* Styling for the "Back to Home" link */
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff6f00;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+    color: #ff8f00;
 }
 
 /* Animations */
