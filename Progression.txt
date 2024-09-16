@@ -15,3 +15,7 @@ NONE
 
 15th September 2024:
 Today's progress focused on completing the **login** and **signup** pages for Dine Express, ensuring they are styled attractively with animation and background images. While the JavaScript functionality is pending, both pages now include a "Back to Home" link for navigation. The next steps will involve finishing the home page, other key sections, and the contact page to complete the project.
+
+
+16th September 2024:
+sound added in every click of webpage, the alignment of folder herchary is also adjusted as for easy access of the element.
