@@ -19,3 +19,6 @@ Today's progress focused on completing the **login** and **signup** pages for Di
 
 16th September 2024:
 sound added in every click of webpage, the alignment of folder herchary is also adjusted as for easy access of the element.
+
+16th September 2024:
+The code was reuploaded due to a technical glitch, and the second and third sections of the home page have been implemented. However, the content and images are temporary placeholders, and proper media management is yet to be done. The contact page is still pending, along with further design adjustments to finalize the project.
