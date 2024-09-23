@@ -1609,5 +1609,18 @@
     <script src="./assest/script/contact.js"></script>
     <script src="./assest/script/sound.js"></script>
     <script src="./assest/script/feature.js"></script>
+    <script>
+       // Select all button elements
+const buttons = document.querySelectorAll('button');
+
+
+buttons.forEach(function(button) {
+    button.onclick = function() {
+        // Redirect to the login page
+        window.location.href = './login.html';  
+    };
+});
+
+    </script>
 </body>
 </html>
