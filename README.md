@@ -1,4 +1,4 @@
--- LIVE DEMO: https://sskumar-21.github.io/Dine-Express/
+- LIVE DEMO: https://sskumar-21.github.io/Dine-Express/
 # Dine Express
 
 Welcome to **Dine Express**! This project showcases a modern, food-delivery brand website with a clean and professional design. It focuses on providing users with a simple yet engaging way to explore menus and place orders.
